@@ -24,3 +24,22 @@ Early stopping to prevent overfitting
 Grid search for hyperparameter optimization
 
 Visualization of training curves and misclassified images
+
+
+
+Requirements
+
+Install the dependencies using:
+
+pip install numpy matplotlib idx2numpy pillow
+
+
+How to Run
+
+Download the MNIST dataset (in .gz format) and place it in the folder mnist_data/.
+The expected files are:
+
+train-images-idx3-ubyte.gz
+train-labels-idx1-ubyte.gz
+t10k-images-idx3-ubyte.gz
+t10k-labels-idx1-ubyte.gz
